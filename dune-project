@@ -19,7 +19,7 @@
  (name advent-of-code-2025)
  (synopsis "Advent of Code 2025")
  (description "OCaml solutions to 2025 Advent of Code problems")
- (depends ocaml ocamlformat)
+ (depends ocaml (ocamlformat :with-test) (alcotest :with-test))
  (tags
   ("add topics" "to describe" your project)))
 

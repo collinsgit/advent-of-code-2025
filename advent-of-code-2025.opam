@@ -12,7 +12,8 @@ bug-reports: "https://github.com/collinsgit/advent-of-code-2025/issues"
 depends: [
   "dune" {>= "3.20"}
   "ocaml"
-  "ocamlformat"
+  "ocamlformat" {with-test}
+  "alcotest" {with-test}
   "odoc" {with-doc}
 ]
 build: [
